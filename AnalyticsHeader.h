@@ -28,7 +28,7 @@ std::string getLineAt(std::string pathToFile, int lineNum)
 	std::string result;
 
 	std::getline(fooFile, result);
-	
+
 	fooFile.close();
 
 	return result;
